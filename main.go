@@ -36,7 +36,6 @@ func baseHandler(w http.ResponseWriter, r *http.Request) {
 	if length != 0 {
 		log.Print(reply.Word)
 	}
-
 }
 
 func main() {
