@@ -12,7 +12,7 @@ type Reply struct {
 	Word   string  `json:"word"`
 	Length int     `json:"length"`
 	Score  int     `json:"score"`
-	Ratio  float32 `json:"ratio"`
+	Ratio  float32 `json:"score-ratio"`
 }
 
 var alphabet = [26]int{1, 3, 3, 4, 1, 4, 4, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10}
